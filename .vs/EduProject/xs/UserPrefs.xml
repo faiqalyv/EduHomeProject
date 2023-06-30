@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{C9323B9F-8D70-448A-B713-4A8BF85AE652}|Default">
+  <MonoDevelop.Ide.ItemProperties.EduHome.UI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Migrations/20230625105812_Initial.cs">
+    <Files>
+      <File FileName="EduHome.UI/Program.cs" />
+      <File FileName="EduHome.UI/Areas/Admin/Controllers/CourseController.cs" />
+      <File FileName="EduHome.UI/Areas/Admin/Controllers/DashboardController.cs" />
+      <File FileName="EduHome.UI/Controllers/HomeController.cs" />
+      <File FileName="EduHome.UI/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="EDUHome.Core/Entities/Course.cs" Line="1" Column="1" />
+      <File FileName="EDUHome.Core/Entities/CourseCatagory.cs" Line="1" Column="1" />
+      <File FileName="EduHome.UI/ScaffoldingReadMe.txt" />
+      <File FileName="DataAccess/Context/AppDbContext.cs" />
+      <File FileName="EduHome.UI/Views/_ViewImports.cshtml" />
+      <File FileName="EduHome.UI/Views/_ViewStart.cshtml" />
+      <File FileName="EduHome.UI/appsettings.Development.json" />
+      <File FileName="DataAccess/Migrations/20230625105812_Initial.Designer.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Migrations/20230625110622_CoursesTableIsFixed.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Migrations/20230625110622_CoursesTableIsFixed.Designer.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Migrations/AppDbContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Migrations/20230625105812_Initial.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EduProject" expanded="True">
+            <Node name="DataAccess" expanded="True">
+              <Node name="Migrations" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
