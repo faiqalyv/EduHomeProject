@@ -1,13 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿//using System.ComponentModel.DataAnnotations;
 
-namespace EduHome.UI.Areas.Admin.ViewModels.CourseViewModels;
+//namespace EduHome.UI.Areas.Admin.ViewModels.CourseViewModels;
 
-public class CoursePostVM
-{
-    [Required,MaxLength(10)]
-    public string? Title { get; set; }
-    [Required, MaxLength(120)]
-    public string? Description { get; set; }
-    [Required, MaxLength(255)]
-    public string? ImagePath { get; set; }
-}
+//public class CoursePostVM
+//{
+//    [Required,MaxLength(10)]
+//    public string? Title { get; set; }
+//    [Required, MaxLength(120)]
+//    public string? Description { get; set; }
+//    [Required, MaxLength(255)]
+//    public string? ImagePath { get; set; }
+//}

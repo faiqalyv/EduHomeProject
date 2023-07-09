@@ -1338,11 +1338,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/6.0.19": {
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.18": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.19"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.18"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
@@ -3767,21 +3767,6 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "EDUHome.Core": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.19",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.19"
-        },
-        "compile": {
-          "bin/placeholder/DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
-        }
-      },
       "EDUHome.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -5388,17 +5373,17 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/6.0.19": {
-      "sha512": "tUyKFMYxUz+Ph6iuwp5GqAkD71KCiEhyY1MzApcBnHTEZhU/Au9RnCIYOP98bOOfyDjnri0QkvhtGqwQhRkKww==",
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.18": {
+      "sha512": "mFiOQIZEJ0bhRjCLNJpphqe+o31AimU/8cP9G6SUrnnEaU/gb2AEUwiCUsTsTd7ui9gCI3+GygzzlQa53zZLkw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/6.0.19",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.18",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.6.0.19.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.6.0.18.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -10762,11 +10747,6 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
-    },
     "EDUHome.Core/1.0.0": {
       "type": "project",
       "path": "../EDUHome.Core/EDUHome.Core.csproj",
@@ -10775,7 +10755,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DataAccess >= 1.0.0",
+      "EDUHome.Core >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.18",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.19",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.14"
     ]
@@ -10805,8 +10786,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/faigaliyev/Downloads/EduHomeProject/DataAccess/DataAccess.csproj": {
-              "projectPath": "/Users/faigaliyev/Downloads/EduHomeProject/DataAccess/DataAccess.csproj"
+            "/Users/faigaliyev/Downloads/EduHomeProject/EDUHome.Core/EDUHome.Core.csproj": {
+              "projectPath": "/Users/faigaliyev/Downloads/EduHomeProject/EDUHome.Core/EDUHome.Core.csproj"
             }
           }
         }
@@ -10821,6 +10802,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[6.0.18, )"
+          },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

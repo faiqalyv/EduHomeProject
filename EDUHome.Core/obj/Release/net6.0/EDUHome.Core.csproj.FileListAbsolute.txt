@@ -1,0 +1,5 @@
+/Users/faigaliyev/Downloads/EduHomeProject/EDUHome.Core/obj/Release/net6.0/EDUHome.Core.csproj.AssemblyReference.cache
+/Users/faigaliyev/Downloads/EduHomeProject/EDUHome.Core/obj/Release/net6.0/EDUHome.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/faigaliyev/Downloads/EduHomeProject/EDUHome.Core/obj/Release/net6.0/EDUHome.Core.AssemblyInfoInputs.cache
+/Users/faigaliyev/Downloads/EduHomeProject/EDUHome.Core/obj/Release/net6.0/EDUHome.Core.AssemblyInfo.cs
+/Users/faigaliyev/Downloads/EduHomeProject/EDUHome.Core/obj/Release/net6.0/EDUHome.Core.csproj.CoreCompileInputs.cache

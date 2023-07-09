@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "EduHome.UI/1.0.0": {
         "dependencies": {
-          "DataAccess": "1.0.0",
+          "EDUHome.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.18",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.19",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.14"
         },
@@ -1174,15 +1175,15 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/6.0.19": {
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.18": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.19"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "6.0.19.0",
-            "fileVersion": "6.0.1923.31801"
+            "assemblyVersion": "6.0.18.0",
+            "fileVersion": "6.0.1823.25207"
           }
         }
       },
@@ -2472,16 +2473,6 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "DataAccess/1.0.0": {
-        "dependencies": {
-          "EDUHome.Core": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.19",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.19"
-        },
-        "runtime": {
-          "DataAccess.dll": {}
-        }
-      },
       "EDUHome.Core/1.0.0": {
         "runtime": {
           "EDUHome.Core.dll": {}
@@ -3034,12 +3025,12 @@
       "path": "microsoft.entityframeworkcore.relational/6.0.19",
       "hashPath": "microsoft.entityframeworkcore.relational.6.0.19.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/6.0.19": {
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.18": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tUyKFMYxUz+Ph6iuwp5GqAkD71KCiEhyY1MzApcBnHTEZhU/Au9RnCIYOP98bOOfyDjnri0QkvhtGqwQhRkKww==",
-      "path": "microsoft.entityframeworkcore.sqlserver/6.0.19",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.19.nupkg.sha512"
+      "sha512": "sha512-mFiOQIZEJ0bhRjCLNJpphqe+o31AimU/8cP9G6SUrnnEaU/gb2AEUwiCUsTsTd7ui9gCI3+GygzzlQa53zZLkw==",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.18",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.18.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Tools/6.0.19": {
       "type": "package",
@@ -3999,11 +3990,6 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
-    },
-    "DataAccess/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "EDUHome.Core/1.0.0": {
       "type": "project",

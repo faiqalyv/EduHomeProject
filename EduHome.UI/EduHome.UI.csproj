@@ -12,14 +12,25 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.18" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="DataAccess\" />
+    <Folder Include="DataAccess\Context\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="DataAccess\" />
+    <None Remove="DataAccess\Context\" />
+    <None Remove="ViewModels\" />
   </ItemGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="..\EDUHome.Core\EDUHome.Core.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
