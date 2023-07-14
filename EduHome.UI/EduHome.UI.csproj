@@ -13,6 +13,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.18" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +21,8 @@
     <Folder Include="DataAccess\" />
     <Folder Include="DataAccess\Context\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\Assets\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,10 +30,15 @@
     <None Remove="DataAccess\" />
     <None Remove="DataAccess\Context\" />
     <None Remove="ViewModels\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.TagHelpers" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EDUHome.Core\EDUHome.Core.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\Assets\" />
   </ItemGroup>
 </Project>

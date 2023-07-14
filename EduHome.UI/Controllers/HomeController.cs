@@ -19,8 +19,10 @@ namespace EduHome.UI.Controllers
         {
             HomeVM homeVM = new()
             {
+                chooses = await _context.chooses.ToListAsync(),
                 courses = await _context.courses.ToListAsync(),
-                notices = await _context.notices.ToListAsync()
+                notices = await _context.notices.ToListAsync(),
+                testimonials = await _context.testimonials.ToListAsync()
             };
             return View(homeVM);
         }
