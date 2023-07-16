@@ -5,23 +5,42 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="EduHome.UI/Views/_ViewStart.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EduHome.UI/wwwroot/assets/css/bootstrap.min.css">
     <Files>
       <File FileName="EduHome.UI/Areas/Admin/Views/Shared/_Layout.cshtml" />
       <File FileName="EduHome.UI/Areas/Admin/Controllers/CourseController.cs" />
       <File FileName="EduHome.UI/Areas/Admin/Controllers/DashboardController.cs" />
       <File FileName="EduHome.UI/Areas/Admin/Views/Course/Create.cshtml" />
       <File FileName="EduHome.UI/Controllers/HomeController.cs" />
-      <File FileName="EduHome.UI/Views/Shared/_Layout.cshtml" />
+      <File FileName="EduHome.UI/Views/Shared/_Layout.cshtml" Line="15" Column="42" />
       <File FileName="EduHome.UI/Areas/Admin/Views/_ViewImports.cshtml" />
       <File FileName="EduHome.UI/Areas/Admin/Views/_ViewStart.cshtml" />
       <File FileName="EduHome.UI/Areas/Admin/Views/Dashboard/Index.cshtml" />
       <File FileName="EduHome.UI/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="EduHome.UI/Views/Index.cshtml" Line="1" Column="1" />
+      <File FileName="EduHome.UI/wwwroot/assets/css/animate.min.css" Line="1" Column="1" />
+      <File FileName="EduHome.UI/wwwroot/assets/css/bootstrap.min.css" Line="6" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EduProject" expanded="True" />
+          <Node name="EduProject" expanded="True">
+            <Node name="EduHome.UI" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="admin" expanded="True">
+                  <Node name="assets" expanded="True" />
+                </Node>
+                <Node name="assets" expanded="True">
+                  <Node name="css">
+                    <Node name="bootstrap.min.css" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

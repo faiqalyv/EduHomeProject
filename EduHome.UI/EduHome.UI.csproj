@@ -14,6 +14,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.18" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.18" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,7 +23,7 @@
     <Folder Include="DataAccess\Context\" />
     <Folder Include="ViewModels\" />
     <Folder Include="wwwroot\" />
-    <Folder Include="wwwroot\Assets\" />
+    <Folder Include="Views\Home\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +32,8 @@
     <None Remove="DataAccess\Context\" />
     <None Remove="ViewModels\" />
     <None Remove="Microsoft.AspNetCore.Mvc.TagHelpers" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" />
+    <None Remove="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EDUHome.Core\EDUHome.Core.csproj">
@@ -39,6 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
-    <Content Remove="wwwroot\Assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Areas\Admin\Views\Shared\_Layout.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Areas\Admin\Views\Shared\_AdminLayout.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>
